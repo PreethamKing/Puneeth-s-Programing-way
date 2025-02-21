@@ -1,0 +1,5 @@
+m1 = (3,5,6) 
+m2 = (1,2,3,4) 
+m3 = (5,7,9)
+result=dict(map(lambda x: (x[0],x[1:]),[m1,m2,m3]))
+print(result)
